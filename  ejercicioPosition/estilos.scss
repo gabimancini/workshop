@@ -1,0 +1,89 @@
+/* Float: Right y Left
+.right{
+    float:right;
+    width: 50%;
+}
+.clear{
+    clear: both;
+}
+ */
+/* Clear: Left, Right y Both */
+/* Position: static-relative-absolute-fixed-sticky */
+/* Por defescto es static. No admite top, right, bottom y lesft */
+#prueba{
+    top:30px;
+}
+/* Position relative */
+#prueba{
+    position: relative;
+    top:30px;
+}
+/* Position absolute */
+main{
+    position: relative;
+}
+#prueba{
+    position: absolute;
+    top:30px;
+}
+/* Position fixed */
+.fixed{
+    position: fixed;
+}
+#imgCss{
+    top:10%;
+    left:20%;
+}
+#imgW{
+    top: 40%;
+    right: 10%;
+}
+/* Position Sticky */
+nav{
+    position:-webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+/******* Colores ********/
+/* Nombre : 140 */
+h1{
+color: plum;
+}
+/* Hexadecimal : sistema de base 16. ! para para Red, Green and Blue 
+#000000 #ffffff (#000 #fff)*/
+h1{
+    color: #dda0dd;
+}
+/* RGB: entre 0 a 255 para Red, Green and Blue */
+h1{
+    color: rgb(221,160,221);
+}
+/* RGBA : transparencia entre 0 y 1 alpha */
+h1{
+    color: rgba(221,160,221, 0.5)
+}
+/* Sitio para conocer cada valor: https://www.color-hex.com/color/dda0dd */
+/* Class-ID */
+/* Class = .rojo{} */
+/* ID = #animacion{} */
+.rojo{
+    color: #f00;
+}
+#azul{
+    color: #00f;
+}
+#container{
+    width:800px;
+    height: 800px;
+
+    overflow: hidden;
+}
+.hijo{
+    width: 300px;
+    height: 300px;;
+}
+#rojo{
+    background-color: red;
+    top:650px;
+    position: relative;
+}
