@@ -21,6 +21,7 @@
 /* Position absolute */
 main{
     position: relative;
+    background-color: pink;
 }
 #prueba{
     position: absolute;
